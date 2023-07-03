@@ -12,7 +12,13 @@ function showMobileNav(){
 const button = document.getElementById("shorten-button");
 button.addEventListener("click", shortenURL);
 
-
+const navItems = document.querySelectorAll(".primary__nav--list")
+navItems.forEach(element => {
+    element.addEventListener("click", ()=>{
+        nav.classList.remove("active")
+        hamburger.classList.remove("active");
+    })
+});
 
 // fetches data + outputs value on page
 function shortenURL(){
