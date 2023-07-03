@@ -403,6 +403,10 @@ li,a{
         flex-direction: column;
     }
 
+    .primary__nav ul > li{
+        padding-bottom: .75rem;
+    }
+
     .primary__nav :where(a,button){
         font-weight: 700;
         color: hsl(var(--clr-white));
@@ -510,14 +514,10 @@ li,a{
         padding-block: 57px;
         background-image: url(../images/bg-boost-desktop.svg);
     }
-    /* nav */
-    .primary__nav > * {
-        --flow-space:0;
-    }
+}
 
-    .primary__nav > * {
-        align-items: center;
-    }
+.primary__nav > * {
+    align-items: center;
 }
 
 /*----------------------------*/
@@ -528,7 +528,6 @@ li,a{
     position: relative;
     padding-top: 2rem;
     align-items: center;
-    overflow: hidden;
 }
 
 /* hero */
@@ -657,7 +656,7 @@ footer{
 }
 
 /* footer breakpoint */
-@media(min-width:1100px){
+@media(min-width:68.75rem){
 
     footer > .wrapper{
         display: flex;
