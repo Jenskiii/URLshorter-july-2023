@@ -296,7 +296,7 @@ li,a{
 }
 
 .link-output > .wrapper{
-    overflow: hidden;
+    overflow: auto;
     padding-inline: 5%;
     flex-direction: column;
 }
@@ -490,7 +490,7 @@ li,a{
     /* link output*/
     .link-output > .wrapper{
         flex-direction: row;
-        overflow: scroll;
+        overflow: auto;
         text-align: left;
     }
 
