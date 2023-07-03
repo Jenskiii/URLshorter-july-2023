@@ -728,4 +728,8 @@ footer{
         transform: translateY(-300px) rotate(90deg);
         
     }
+
+    footer{
+        padding-bottom: 0;
+    }
 }
